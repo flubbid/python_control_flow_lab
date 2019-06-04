@@ -10,3 +10,21 @@
 
 # Hints:  Use the in operator to check if a character is in another string
 #         For example, if some_char in 'abc':
+
+# aeiou
+letter = input('Enter a letter from the alphabet!')
+
+if letter == 'a':
+    print(f"The letter {letter} is a vowel!")
+elif letter == 'e':
+    print(f"The letter {letter} is a vowel!")
+elif letter == 'i':
+    print(f"The letter {letter} is a vowel!")
+elif letter == 'o':
+    print(f"The letter {letter} is a vowel!")
+elif letter == 'u':
+    print(f"The letter {letter} is a vowel!")
+else: 
+    print(f"The letter {letter} is a consonant!")
+    
+    
