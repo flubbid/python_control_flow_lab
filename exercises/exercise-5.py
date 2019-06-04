@@ -12,3 +12,17 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+term = 0
+a = 0
+b = 1
+
+while term < 51:
+    if term <= 1:
+        print(f'The term is {term} and the number is {term}!')
+    else:
+        num = a + b
+        print(f'Ther term is {term} and the number is {num}!')
+        a = b
+        b = num
+    term += 1
